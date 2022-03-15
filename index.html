@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Diseño</title>
+    <style>
+        #header, #footer {
+    width: 80%;
+    background-color:darkturquoise;
+    height: 150px; 
+    border-radius: 17px;
+    }
+
+    #footer {
+        background-color: rgb(47, 75, 107);
+        clear: left;
+        }
+
+        #sidebar { 
+       justify-content: space-around;
+        display: flex;
+        background-color:cornflowerblue;
+        height: 400px;
+        width: 25%;
+        border-radius: 17px;
+        float: inline-end;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+#main{
+   margin-right: 10px;
+   margin-top: 10px;
+    width: 55%;
+    background-color:lawngreen;
+    height: 400px; 
+    border-radius: 17px;
+    float: left;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.box{
+      
+    color: darkblue;
+    height: 100px;
+    width: 50px;
+    background-color: blueviolet;
+    align-items: flex-start;
+    border-radius: 10px;
+    flex-direction: row;
+   
+}
+
+
+.btn{
+    margin: 6;
+    color:aliceblue;
+    border-radius: 5px;
+    background-color:rgb(11, 175, 121);
+    box-shadow: #000;
+    flex-direction:row;
+    align-items: flex-start;
+    
+    
+}
+.btn2{
+    color: blueviolet;
+    padding: 50px;
+    
+}
+.btn:hover{
+    color: blueviolet;
+   padding-left: 10%;
+    border-radius: 5px;
+    background-color:cadetblue;
+    box-shadow: #000;
+}
+.btn:active{
+    color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:aquamarine;
+    box-shadow: #000;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction:row;
+    width: 20px;
+    height:18px;
+    
+}
+
+
+
+    </style>
+   
+</head>
+<header id="header">
+    <h1>HEADER</h1>
+</header>
+<body>
+    
+   
+    <div id="main">  
+       <h2>MAIN</h2>
+        <ul>
+           
+        <div class="box btn">item</div>
+        <div class="box btn">item</div>
+        <div class="box btn">item</div>
+        <div class="box btn">item</div>
+        <div class="box btn">item</div>
+       </div>
+    </ul>
+    </div>
+   
+    <div id="sidebar">
+        <h2>SIDEBAR</h2>
+    </div>
+     <div id="footer">
+         <h2>FOOTER</h2>
+     </div>
+     
+</body>
+</html>
